@@ -1,0 +1,56 @@
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/OpenSans-Regular.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url("../fonts/OpenSans-Regular.ttf");
+	font-weight: 600;
+}
+
+body {
+	max-width: 1300px;
+	margin: 100px 10vw 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+button {
+	max-width: 200px;
+	padding: 10px 0;
+	font-family: inherit;
+}
+
+.main-wrapper {
+	display: flex;
+}
+
+.interactive-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.replace-inputs {
+	display: flex;
+	flex-direction: column;
+}
+
+.inputs {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+}
+
+.inputs > input {
+	margin: 10px 0;
+	max-width: 300px;
+}
+
+.inputs > input::placeholder {
+	font-family: "Open Sans", sans-serif;
+}
+
+.tale-text > p {
+	margin: 100px;
+}
