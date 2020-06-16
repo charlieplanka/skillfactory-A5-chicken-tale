@@ -43,7 +43,7 @@ function appendToAnotherElement(targetSelector, elementToAppend) {
 
 // replace button
 function IsTextPresent() {
-	textSection = document.querySelector('.tale-text');
+	const textSection = document.querySelector('.tale-text');
 	return textSection.children.length;
 };
 
